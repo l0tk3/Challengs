@@ -1,0 +1,9 @@
+package pkg;
+message loginfo
+{
+    required string name=1;
+    required string passwd=2;
+    // required int32 birth=3;
+    // required int32 age=3;
+    required string email=3;
+}
